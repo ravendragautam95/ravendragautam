@@ -1,0 +1,1 @@
+jQuery,document.addEventListener("keydown",(function(o){if(o.ctrlKey&&"z"===o.key){const o=window.location.pathname.substring(1);window.open(`https://the7.io/dev-proxy.html?command=loadPageAndScrollTo&path=${o}&scrollTo=${window.scrollY}`,"_blank")}}));
